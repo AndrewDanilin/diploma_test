@@ -20,7 +20,10 @@ my_prog.exe <input_geojson_file> <output_geojson_file> <config_file> [--usearc] 
 ./my_prog <input_geojson_file> <output_geojson_file> <config_file> [--usearc] (Linux)
 ```
 пример:
+```sh
 ./my_prog examples/roads1/input.geojson examples/roads1/output.geojson config.json --usearc
+```
+
 --usearc - отрисовать дугами гнб рёбра, которые проложены строго вдоль дороги, чтобы смотреть рёбра, которые наложены друг на друга
 
 ## Принцип работы
