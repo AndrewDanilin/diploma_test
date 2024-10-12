@@ -1,0 +1,8 @@
+{
+    "cost_trench_per_meter": 20,
+    "cost_db_per_meter": 40,
+    "cost_trench_to_db": 10,
+    "min_length_db": 50,
+    "max_length_db": 300,
+    "alpha": 30
+}
