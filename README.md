@@ -5,19 +5,19 @@
 
 Клонируем репозиторий:
 ```sh
-$ git clone https://github.com/AndrewDanilin/diploma_test some_dir
+git clone https://github.com/AndrewDanilin/diploma_test some_dir
 ```
 
 Собираем сие чудо:
 ```sh
-$ cd some_dir
-$ g++ implementations/*.cpp main.cpp -o my_prog
+cd some_dir
+g++ implementations/*.cpp main.cpp -o my_prog
 ```
 
 Запускаем сие чудо:
 ```sh
-./my_prog.exe <input_geojson_file> <output_geojson_file> <config_file> [--usearc] (Windows)
-./my_prog <input_geojson_file> <output_geojson_file> <config_file> [--usearc] (Linux)
+my_prog.exe <input_geojson_file> <output_geojson_file> <config_file> [--usearc] (Windows)
+my_prog <input_geojson_file> <output_geojson_file> <config_file> [--usearc] (Linux)
 ```
 --usearc - отрисовать дугами гнб рёбра, которые проложены строго вдоль дороги, чтобы смотреть рёбра, которые наложены друг на друга
 
